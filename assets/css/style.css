@@ -116,28 +116,51 @@ h1, h2 {
 
 #club-ethos {
     height: 600px;
-    background-color: grey;
 }
 
 #left-about {
     padding-top: 30px;
     width: 33%;
     float: left;
-    background-color: lightblue;
-
 }
 
 #right-about {
     padding-top:30px;
     width: 33%;
     float: right;
-    background-color: lightcoral;
-
 }
 
 #center-about{
     width: 33%;
     margin: 0 auto; 
-    background-color: lemonchiffon;
+}
 
+hr {
+    border-top: 1px solid #3a3a3a;
+    width: 100%;
+    margin: 5px;
+}
+
+.left-about-heading {
+    width: 60%;
+    float: right;
+    line-height: 20px;
+    clear: both;
+    margin-bottom:50px
+}
+
+.right-about-heading {
+    width: 60%;
+    float: left;
+    line-height: 20px;
+    clear: both;
+    margin-bottom:50px
+}
+
+.right-about-heading h2{
+    text-align: right;
+}
+
+.right-about-heading p{
+    text-align: right;
 }
